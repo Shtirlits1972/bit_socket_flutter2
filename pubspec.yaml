@@ -1,0 +1,29 @@
+name: bit_socket_flutter2
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0-165.1.beta <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  web_socket_channel: ^2.2.0
+  json_annotation:  ^4.6.0
+  json_serializable: ^6.3.1
+  intl: ^0.17.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^2.0.0
+  build_runner: ^2.2.0
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
